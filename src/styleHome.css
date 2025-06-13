@@ -98,12 +98,12 @@ body {
     gap: 15px;
 }
 
-/* Estilo padrão (Mobile First) */
+
 .menu-toggle {
   display: block;
   background: none;
   border: none;
-  font-size: 24px;
+  font-size: 40px;
   cursor: pointer;
 }
 
@@ -112,12 +112,11 @@ body {
     flex-direction: column;
     justify-content: flex-end;
     position: absolute;
-    top: 70px; /* distancia abaixo do header */
-    right: 20px; /* alinha à direita da tela */
+    top: 70px; 
+    right: 20px; 
     width: auto;
     background: white;
     padding: 10px 15px;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
     border-radius: 4px;
     z-index: 10;
   }
